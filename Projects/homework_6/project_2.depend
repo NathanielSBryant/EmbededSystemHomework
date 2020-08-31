@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1586577708 source:/home/nathan/Desktop/homework_6/config.c
+	"eeprom.h"
+	"config.h"
+	"util.h"
+
+1586575385 source:/home/nathan/Desktop/homework_6/eeprom.c
+	"eeprom.h"
+
+1586577287 source:/home/nathan/Desktop/homework_6/main.c
+	<avr/io.h>
+	"util.h"
+	"uart.h"
+	"config.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"vpd.h"
+	"eeprom.h"
+
+1586577624 source:/home/nathan/Desktop/homework_6/vpd.c
+	"vpd.h"
+	"eeprom.h"
+	"util.h"
+
+1586572895 source:/home/nathan/Desktop/homework_6/util.c
+	"util.h"
+
+1586570228 /home/nathan/Desktop/homework_6/eeprom.h
+
+1586572915 /home/nathan/Desktop/homework_6/util.h
+
+1586570191 /home/nathan/Desktop/homework_6/config.h
+
+1586320622 /home/nathan/Desktop/homework_6/uart.h
+
+1586320547 /home/nathan/Desktop/homework_6/led.h
+
+1586320563 /home/nathan/Desktop/homework_6/log.h
+
+1586320578 /home/nathan/Desktop/homework_6/rtc.h
+
+1586571029 /home/nathan/Desktop/homework_6/vpd.h
+
+1586571029 source:/home/nathan/Desktop/homework_6/vpd.h
+

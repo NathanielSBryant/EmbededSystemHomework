@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1570799754 source:/home/nathan/Desktop/homework_7/main.c
+	"alarm.h"
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"temp.h"
+	"tempfsm.h"
+	"uart.h"
+	"uartsocket.h"
+	"util.h"
+	"process_packet.h"
+	"vpd.h"
+	"wdt.h"
+
+1570799814 /home/nathan/Desktop/homework_7/alarm.h
+
+1570799814 /home/nathan/Desktop/homework_7/config.h
+
+1570799814 /home/nathan/Desktop/homework_7/delay.h
+
+1570799814 /home/nathan/Desktop/homework_7/eeprom.h
+
+1570799814 /home/nathan/Desktop/homework_7/led.h
+
+1570799814 /home/nathan/Desktop/homework_7/log.h
+
+1570799814 /home/nathan/Desktop/homework_7/rtc.h
+
+1570799814 /home/nathan/Desktop/homework_7/temp.h
+
+1570799890 /home/nathan/Desktop/homework_7/tempfsm.h
+
+1570799814 /home/nathan/Desktop/homework_7/uart.h
+
+1570800714 /home/nathan/Desktop/homework_7/uartsocket.h
+
+1570799814 /home/nathan/Desktop/homework_7/util.h
+
+1570801072 /home/nathan/Desktop/homework_7/process_packet.h
+
+1570799814 /home/nathan/Desktop/homework_7/vpd.h
+
+1570799896 /home/nathan/Desktop/homework_7/wdt.h
+
+1587790352 source:/home/nathan/Desktop/homework_7/tempfsm.c
+	"log.h"
+	"alarm.h"
+	"led.h"
+
+1587789822 source:/home/nathan/Desktop/homework_7/util.c
+	"config.h"
+
+1587773804 source:/home/nathan/Desktop/homework_7/wdt.c
+	"wdt.h"
+	"alarm.h"
+	"log.h"
+	"config.h"
+

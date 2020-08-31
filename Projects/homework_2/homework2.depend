@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1581748610 source:/home/nathan/Desktop/homework_2/main.c
+	<avr/io.h>
+

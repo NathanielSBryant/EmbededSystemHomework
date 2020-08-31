@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1582350709 source:/home/nathan/Desktop/homeowrk_3/main.c
+	<avr/io.h>
+	"output.c"
+	"hw4lib.h"
+
+1582237614 /home/nathan/Desktop/homeowrk_3/hw4lib.h
+
+1582237593 /home/nathan/Desktop/homeowrk_3/output.h
+
+1582350542 /home/nathan/Desktop/homeowrk_3/output.c
+	"hw4lib.h"
+

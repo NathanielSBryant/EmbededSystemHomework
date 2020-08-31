@@ -1,0 +1,999 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+                              obj/Release/main.o (led_set_blink)
+/home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+                              obj/Release/main.o (led_init)
+/home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                              obj/Release/main.o (log_init)
+/home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                              obj/Release/main.o (rtc_init)
+/home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (str_cpy)
+/home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (timer1_init)
+/home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                              obj/Release/main.o (uart_init)
+/home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                              obj/Release/main.o (dump_eeprom)
+/home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(led.o) (delay_isdone)
+/home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o) (serial_init)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (__mulsi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (__udivmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(log.o) (__divmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (__udivmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o) (__divmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              obj/Release/config.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              obj/Release/config.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (__umulhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                              /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o) (__muluhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+rxbuf               0x40              /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+writebuff           0x40              obj/Release/eeprom.o
+write_busy          0x1               obj/Release/eeprom.o
+vpd                 0x37              obj/Release/main.o
+writeaddr           0x2               obj/Release/eeprom.o
+rtc_base            0x4               /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+writesize           0x1               obj/Release/eeprom.o
+config_modified     0x1               obj/Release/config.o
+txbuf               0x40              /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+bufidx              0x1               obj/Release/eeprom.o
+config              0x12              obj/Release/config.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Release/config.o
+LOAD obj/Release/eeprom.o
+LOAD obj/Release/main.o
+LOAD obj/Release/util.o
+LOAD obj/Release/vpd.o
+LOAD /home/nathan/Desktop/homework_6/lib_proj2.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1732
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000000000000068                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000068                __ctors_start = .
+ *(.ctors)
+                0x0000000000000068                __ctors_end = .
+                0x0000000000000068                __dtors_start = .
+ *(.dtors)
+                0x0000000000000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000068        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000068        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000074       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000074                __do_copy_data
+ .init4         0x000000000000008a       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000000000009a        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000a2        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000a2                __vector_1
+                0x00000000000000a2                __vector_24
+                0x00000000000000a2                __vector_12
+                0x00000000000000a2                __bad_interrupt
+                0x00000000000000a2                __vector_6
+                0x00000000000000a2                __vector_3
+                0x00000000000000a2                __vector_23
+                0x00000000000000a2                __vector_25
+                0x00000000000000a2                __vector_13
+                0x00000000000000a2                __vector_17
+                0x00000000000000a2                __vector_7
+                0x00000000000000a2                __vector_5
+                0x00000000000000a2                __vector_4
+                0x00000000000000a2                __vector_9
+                0x00000000000000a2                __vector_2
+                0x00000000000000a2                __vector_21
+                0x00000000000000a2                __vector_15
+                0x00000000000000a2                __vector_8
+                0x00000000000000a2                __vector_10
+                0x00000000000000a2                __vector_16
+                0x00000000000000a2                __vector_20
+ .text          0x00000000000000a6       0x98 obj/Release/config.o
+                0x00000000000000a6                config_update
+                0x00000000000000d6                config_set_modified
+                0x00000000000000de                config_is_data_valid
+                0x00000000000000ee                config_write_defaults
+                0x0000000000000108                config_init
+ .text          0x000000000000013e       0xf4 obj/Release/eeprom.o
+                0x000000000000013e                eeprom_writebuf
+                0x000000000000017c                eeprom_readbuf
+                0x00000000000001a6                eeprom_isbusy
+                0x00000000000001b8                __vector_22
+ .text          0x0000000000000232        0x0 obj/Release/main.o
+ .text          0x0000000000000232       0x5e obj/Release/util.o
+                0x0000000000000232                update_checksum
+                0x000000000000025e                is_checksum_valid
+ .text          0x0000000000000290       0x76 obj/Release/vpd.o
+                0x0000000000000290                vpd_is_data_valid
+                0x00000000000002ba                vpd_write_defaults
+                0x00000000000002d4                vpd_init
+ .text          0x0000000000000306       0xd8 /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+                0x0000000000000306                led_set_blink
+                0x000000000000032a                led_update
+ .text          0x00000000000003de       0x18 /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+                0x00000000000003de                led_init
+                0x00000000000003e4                led_on
+                0x00000000000003e8                led_off
+                0x00000000000003ec                led_is_on
+ .text          0x00000000000003f6      0x3d8 /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                0x00000000000003f6                log_is_data_valid
+                0x0000000000000442                log_init
+                0x00000000000005cc                log_update
+                0x0000000000000638                log_add_record
+                0x00000000000006da                log_clear
+                0x0000000000000714                log_get_num_entries
+                0x0000000000000746                log_get_record
+ .text          0x00000000000007ce      0x5e6 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                0x00000000000007ce                rtc_init
+                0x00000000000007d2                rtc_get_date
+                0x00000000000007f8                is_leapyear
+                0x000000000000082c                rtc_set_by_datestr
+                0x0000000000000af6                get_month
+                0x0000000000000b86                rtc_num2datestr
+                0x0000000000000d8c                rtc_get_date_string
+ .text          0x0000000000000db4       0xd8 /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+                0x0000000000000db4                str_cpy
+                0x0000000000000dc8                str_writeudec16
+ .text          0x0000000000000e8c       0x98 /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                0x0000000000000e8c                __vector_11
+                0x0000000000000ed6                timer1_init
+                0x0000000000000ef4                timer1_get
+                0x0000000000000f0c                timer1_clear
+ .text          0x0000000000000f24      0x194 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                0x0000000000000f24                uart_init
+                0x0000000000000f2c                uart_writechar
+                0x0000000000000f30                uart_writestr
+                0x0000000000000f48                uart_writehex8
+                0x0000000000000f7a                uart_writehex16
+                0x0000000000000f8c                uart_writedec32
+ .text          0x00000000000010b8      0x194 /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                0x00000000000010b8                dump_eeprom
+ .text          0x000000000000124c      0x12c /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                0x000000000000124c                __vector_14
+                0x00000000000012c0                delay_init
+                0x00000000000012d2                delay_get
+                0x00000000000012f2                delay_isdone
+                0x0000000000001324                delay_set
+ .text          0x0000000000001378      0x1e4 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                0x0000000000001378                serial_init
+                0x000000000000139e                __vector_18
+                0x0000000000001400                __vector_19
+                0x0000000000001466                serial_rxchars
+                0x0000000000001474                serial_popchar
+                0x00000000000014a8                serial_writechar
+                0x0000000000001508                serial_writestr
+                0x0000000000001532                serial_writestr_P
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x000000000000155c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x000000000000155c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x000000000000155c       0xac obj/Release/main.o
+                0x000000000000155c                main
+ .text.libgcc.mul
+                0x0000000000001608       0x20 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000001608                __mulsi3
+ .text.libgcc.div
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x0000000000001628        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000001628       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000001628                __udivmodhi4
+ .text.libgcc   0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000001650        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000001650       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000001650                __divmodhi4
+                0x0000000000001650                _div
+ .text.libgcc   0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000001678        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000001678       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000001678                __udivmodsi4
+ .text.libgcc   0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000000016bc        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00000000000016bc       0x2e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                0x00000000000016bc                __divmodsi4
+ .text.libgcc   0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000000016ea        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x00000000000016ea       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                0x00000000000016ea                __negsi2
+ .text.libgcc   0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000000016fa        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000000016fa       0x1e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                0x00000000000016fa                __umulhisi3
+ .text.libgcc.div
+                0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000001718        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000001718       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000001718                __muluhisi3
+ .text.libgcc.div
+                0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x000000000000172e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000172e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x000000000000172e                exit
+                0x000000000000172e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000172e        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001732                _etext = .
+
+.siminfo        0x0000000000001732       0x28
+ .siminfo       0x0000000000001732       0x28 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                0x0000000000001732                siminfo_serial_out
+                0x000000000000173d                siminfo_serial_in
+                0x0000000000001748                siminfo_cpufrequency
+                0x000000000000174e                siminfo_device
+
+.data           0x0000000000800100       0xc8 load address 0x000000000000175a
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100       0x12 obj/Release/config.o
+                0x0000000000800100                config_defaults
+ .data          0x0000000000800112        0x0 obj/Release/eeprom.o
+ .data          0x0000000000800112        0x0 obj/Release/main.o
+ .data          0x0000000000800112        0x0 obj/Release/util.o
+ .data          0x0000000000800112       0x37 obj/Release/vpd.o
+                0x0000000000800112                vpd_default
+ .data          0x0000000000800149        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+ .data          0x0000000000800149        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+ .data          0x0000000000800149        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+ .data          0x0000000000800149       0x14 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+ .data          0x000000000080015d        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x000000000080015d        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x000000000080015d        0xc /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800169       0x44 obj/Release/main.o
+                                         0x47 (size before relaxing)
+ .rodata.str1.1
+                0x00000000008001ad       0x14 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+ .rodata.str1.1
+                0x00000000008001c1        0x7 /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+ *(.gnu.linkonce.d*)
+                0x00000000008001c8                . = ALIGN (0x2)
+                0x00000000008001c8                _edata = .
+                0x00000000008001c8                PROVIDE (__data_end, .)
+
+.bss            0x00000000008001c8      0x1ad
+                0x00000000008001c8                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00000000008001c8        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000008001c8        0x0 obj/Release/config.o
+ .bss           0x00000000008001c8        0x0 obj/Release/eeprom.o
+ .bss           0x00000000008001c8        0x0 obj/Release/main.o
+ .bss           0x00000000008001c8        0x0 obj/Release/util.o
+ .bss           0x00000000008001c8        0x0 obj/Release/vpd.o
+ .bss           0x00000000008001c8        0x5 /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+ .bss           0x00000000008001cd        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+ .bss           0x00000000008001cd       0x83 /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+ .bss           0x0000000000800250        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+ .bss           0x0000000000800250        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+ .bss           0x0000000000800250        0x4 /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+ .bss           0x0000000000800254        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+ .bss           0x0000000000800254        0x0 /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+ .bss           0x0000000000800254        0xa /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+ .bss           0x000000000080025e        0x4 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                0x000000000080025e                txtail
+                0x000000000080025f                txhead
+                0x0000000000800260                rxtail
+                0x0000000000800261                rxhead
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800262        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000000800262       0x13 obj/Release/config.o
+                0x0000000000800262                config_modified
+                0x0000000000800263                config
+ COMMON         0x0000000000800275       0x45 obj/Release/eeprom.o
+                0x0000000000800275                writebuff
+                0x00000000008002b5                write_busy
+                0x00000000008002b6                writeaddr
+                0x00000000008002b8                writesize
+                0x00000000008002b9                bufidx
+ COMMON         0x00000000008002ba       0x37 obj/Release/main.o
+                0x00000000008002ba                vpd
+ COMMON         0x00000000008002f1        0x4 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                0x00000000008002f1                rtc_base
+ COMMON         0x00000000008002f5       0x80 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                0x00000000008002f5                rxbuf
+                0x0000000000800335                txbuf
+                0x0000000000800375                PROVIDE (__bss_end, .)
+                0x000000000000175a                __data_load_start = LOADADDR (.data)
+                0x0000000000001822                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800375        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800375                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/Release/config.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 obj/Release/eeprom.o
+ .comment       0x0000000000000011       0x12 obj/Release/main.o
+ .comment       0x0000000000000011       0x12 obj/Release/util.o
+ .comment       0x0000000000000011       0x12 obj/Release/vpd.o
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+ .comment       0x0000000000000011       0x12 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Release/project_2.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+__divmodsi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/main.o
+                                                  obj/Release/eeprom.o
+                                                  obj/Release/config.o
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/main.o
+                                                  obj/Release/config.o
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__mulsi3                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+__muluhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+__negsi2                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__udivmodhi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+__umulhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+__vector_1                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       obj/Release/eeprom.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_div                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+bufidx                                            obj/Release/eeprom.o
+config                                            obj/Release/main.o
+                                                  obj/Release/config.o
+config_defaults                                   obj/Release/config.o
+config_init                                       obj/Release/config.o
+                                                  obj/Release/main.o
+config_is_data_valid                              obj/Release/config.o
+config_modified                                   obj/Release/config.o
+config_set_modified                               obj/Release/config.o
+                                                  obj/Release/main.o
+config_update                                     obj/Release/config.o
+                                                  obj/Release/main.o
+config_write_defaults                             obj/Release/config.o
+delay_get                                         /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+delay_init                                        /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+delay_isdone                                      /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+delay_set                                         /home/nathan/Desktop/homework_6/lib_proj2.a(delay.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+dump_eeprom                                       /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                                                  obj/Release/main.o
+eeprom_isbusy                                     obj/Release/eeprom.o
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/main.o
+                                                  obj/Release/config.o
+eeprom_readbuf                                    obj/Release/eeprom.o
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/config.o
+eeprom_writebuf                                   obj/Release/eeprom.o
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/config.o
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+get_month                                         /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+is_checksum_valid                                 obj/Release/util.o
+                                                  obj/Release/vpd.o
+is_leapyear                                       /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+led_init                                          /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+                                                  obj/Release/main.o
+led_is_on                                         /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+led_off                                           /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+led_on                                            /home/nathan/Desktop/homework_6/lib_proj2.a(led_part.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+led_set_blink                                     /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+                                                  obj/Release/main.o
+led_update                                        /home/nathan/Desktop/homework_6/lib_proj2.a(led.o)
+                                                  obj/Release/main.o
+log_add_record                                    /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/main.o
+log_clear                                         /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/main.o
+log_get_num_entries                               /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+log_get_record                                    /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+log_init                                          /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/main.o
+log_is_data_valid                                 /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+log_update                                        /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/main.o
+main                                              obj/Release/main.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+rtc_base                                          /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+rtc_get_date                                      /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+rtc_get_date_string                               /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+rtc_init                                          /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                                                  obj/Release/main.o
+rtc_num2datestr                                   /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+rtc_set_by_datestr                                /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+                                                  obj/Release/main.o
+rxbuf                                             /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+rxhead                                            /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+rxtail                                            /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+serial_init                                       /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+serial_popchar                                    /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+serial_rxchars                                    /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+serial_writechar                                  /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+serial_writestr                                   /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+serial_writestr_P                                 /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+siminfo_cpufrequency                              /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+siminfo_device                                    /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+siminfo_serial_in                                 /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+siminfo_serial_out                                /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+str_cpy                                           /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+str_writeudec16                                   /home/nathan/Desktop/homework_6/lib_proj2.a(str.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+timer1_clear                                      /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+timer1_get                                        /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+timer1_init                                       /home/nathan/Desktop/homework_6/lib_proj2.a(timer1.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(rtc.o)
+txbuf                                             /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+txhead                                            /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+txtail                                            /home/nathan/Desktop/homework_6/lib_proj2.a(serial.o)
+uart_init                                         /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                                                  obj/Release/main.o
+uart_writechar                                    /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+uart_writedec32                                   /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+uart_writehex16                                   /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+uart_writehex8                                    /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+uart_writestr                                     /home/nathan/Desktop/homework_6/lib_proj2.a(uart.o)
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(util_part.o)
+                                                  obj/Release/main.o
+update_checksum                                   obj/Release/util.o
+                                                  /home/nathan/Desktop/homework_6/lib_proj2.a(log.o)
+                                                  obj/Release/vpd.o
+                                                  obj/Release/config.o
+vpd                                               obj/Release/vpd.o
+                                                  obj/Release/main.o
+vpd_default                                       obj/Release/vpd.o
+vpd_init                                          obj/Release/vpd.o
+                                                  obj/Release/main.o
+vpd_is_data_valid                                 obj/Release/vpd.o
+vpd_write_defaults                                obj/Release/vpd.o
+write_busy                                        obj/Release/eeprom.o
+writeaddr                                         obj/Release/eeprom.o
+writebuff                                         obj/Release/eeprom.o
+writesize                                         obj/Release/eeprom.o

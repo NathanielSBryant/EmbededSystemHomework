@@ -1,0 +1,1 @@
+All the files that are .c are by me or commented otherwise.

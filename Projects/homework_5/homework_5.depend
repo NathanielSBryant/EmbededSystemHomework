@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1585344491 source:/home/nathan/Desktop/homework_5/main.c
+	<avr/io.h>
+	"led.h"
+	"delay.h"
+	"timer1.h"
+	"rtc.h"
+	"uart.h"
+
+1585185306 /home/nathan/Desktop/homework_5/delay.h
+
+1585028830 /home/nathan/Desktop/homework_5/led.h
+
+1585343388 /home/nathan/Desktop/homework_5/timer1.h
+
+1585028948 /home/nathan/Desktop/homework_5/rtc.h
+
+1585028876 /home/nathan/Desktop/homework_5/uart.h
+
+1585258817 source:/home/nathan/Desktop/homework_5/delay.c
+
+1585185858 source:/home/nathan/Desktop/homework_5/led.c
+	"led.h"
+	"delay.h"
+
+1585353913 source:/home/nathan/Desktop/homework_5/timer1.c
+

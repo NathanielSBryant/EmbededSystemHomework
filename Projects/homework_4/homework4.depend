@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1583522915 source:/home/nathan/Desktop/homework_4/main.c
+	<avr/io.h>
+	"uart.h"
+	"simpledelay.h"
+	"simpleled.h"
+	"temp.h"
+
+1583375762 /home/nathan/Desktop/homework_4/uart.h
+
+1583375778 /home/nathan/Desktop/homework_4/simpledelay.h
+
+1583375805 /home/nathan/Desktop/homework_4/simpleled.h
+
+1583521440 source:/home/nathan/Desktop/homework_4/temp.c
+	"temp.h"
+
+1583377221 /home/nathan/Desktop/homework_4/temp.h
+
